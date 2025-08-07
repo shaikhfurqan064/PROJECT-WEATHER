@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="weather-container">
+        <h1 class="gradient-text">🌦️ Weather App</h1>
+        <div class="input-grid">
+            <input type="text" id="city" placeholder="Enter City" class="city-input" />
+            <button class="btn primary" onclick="loadData()">Get Weather</button>
+            <button class="btn secondary" onclick="getLocationWeather()">Use My Location</button>
+        </div>
+        <label class="toggle-label">
+            <input type="checkbox" id="unitToggle" onchange="toggleUnit()">
+            <span class="unit-label">Imperial / Metric</span>
+        </label>
+        <div id="result" class="weather-info card"></div>
+        <footer class="footer">Made with <span style="color:#e25555">&#10084;</span> by WeatherApp</footer>
+    </div>
+</body>
+</html>
