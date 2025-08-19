@@ -11,5 +11,5 @@ CSS
 Javascript
 OpenWeather API
 ##Live demo
-click here (https://shaikhfurqan064.github.io/WEATHER-app)
+http://127.0.0.1:5500/index.html
 
